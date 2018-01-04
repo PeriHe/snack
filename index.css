@@ -1,0 +1,43 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    /* 弹性布局实现居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-color:rgb(156, 154, 14);
+}
+
+#gt{
+    /* width: 200px;
+    height: 150px; */
+    border: 6px dotted rgb(156, 154, 14);
+    border-radius: 10px;
+}
+
+#gt td{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+td[state=head]{
+    background-color: red;
+    background:url(head3.jpg);
+    background-size: 100% 100%;
+}
+
+td[state=body]{
+    background-color: pink;
+}
+
+td[state=food]{
+    background-color: pink;
+}
